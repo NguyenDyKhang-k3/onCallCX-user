@@ -1,0 +1,66 @@
+#incommingCallPhoneTop #avatar{
+    width: 58px;
+    height: 58px;
+    background-image: url('../img/avatar.png');
+    background-size: cover;
+    background-position: top center;
+    border:6px solid #6787a0;
+    border-radius: 50%;
+}
+
+#incommingCallPhoneTop #contactName{
+    font-size: 0.9em;
+    padding-top: 4px;
+}
+#incommingCallPhoneTop #contactType{
+    font-size: 0.7em;
+    padding-left: 3px;
+}
+
+#incommingCallPhoneTop #btnCopyPhoneNumber{
+    padding: 0;
+    margin: 0;
+    color: #62737f;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+#incommingCallPhoneTop #btnCopyPhoneNumber:focus{
+    outline: 0;
+}
+
+#incommingPhoneActionsDiv #btnCancel {
+    background-color: #e0443c;
+    border: 0;
+    color: #711c19;
+}
+#incommingPhoneActionsDiv #btnCancel:hover{
+    background-color: #e62d24;
+}
+
+#incommingPhoneActionsDiv #btnCancel:active{
+    background-color: #a91b14;
+}
+#incommingPhoneActionsDiv #btnCancel:disabled{
+    background-color: #e0716b;
+    color: #a85b57;
+}
+
+#incommingPhoneActionsDiv #btnAccept {
+    background-color: #2dd29d;
+    border: 0;
+    color: #12694d;
+}
+
+#incommingPhoneActionsDiv #btnAccept:hover{
+    background-color: #26b587;
+}
+
+#incommingPhoneActionsDiv #btnAccept:active{
+    background-color: #1e916c;
+}
+#incommingPhoneActionsDiv #btnAccept:disabled{
+    background-color: #8ed8c0;
+    color: #61ac94;
+}

@@ -1,0 +1,24 @@
+#transferActionsDiv #btnTransfer {
+    background-color: white;
+    border: 1px solid #e1e8ed;
+    color: #3bb39b;
+}
+#transferActionsDiv #btnTransfer:hover{
+    background-color: #f4fffb;
+}
+
+#transferActionsDiv #btnTransfer:active{
+    background-color: #39cf9d;
+    color: white;
+}
+#transferActionsDiv #btnTransfer:disabled{
+    background-color: #ecf1ec;
+    color: #b8e2d9;
+}
+
+#transferActionsDiv #cancel{
+    font-size: 0.6em;
+    color: #a7acb2;
+    text-decoration: underline;
+    user-select: none;
+}

@@ -1,0 +1,81 @@
+#talkingPhoneTop #avatar{
+    width: 51px;
+    height: 51px;
+    background-image: url('../img/avatar.png');
+    background-size: cover;
+    background-position: top center;
+    border:1px solid #327caf;
+    border-radius: 50%;
+}
+
+#talkingPhoneTop #contactName{
+    padding-top: 9px;
+    font-size: 0.9em;
+}
+#talkingPhoneTop #phoneNum{
+    font-size: 0.6em;
+}
+#talkingPhoneTop #duration{
+    font-size: 0.6em;
+}
+
+
+#talkingPhoneTop .statusColor{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#talkingPhoneActionsDiv{
+    height: 44px;
+}
+
+#talkingPhoneActionsDiv #btnEndCall {
+    background-color: white;
+    border: 1px solid #367eb1;
+    color: #e0443c;
+}
+#talkingPhoneActionsDiv #btnEndCall:hover{
+    background-color: #ecf2fa;
+}
+
+#talkingPhoneActionsDiv #btnEndCall:active{
+    background-color: #df463e;
+    color: white;
+}
+#talkingPhoneActionsDiv #btnEndCall:disabled{
+    background-color: #dedede;
+    color: #e4b1ae;
+}
+
+#talkingPhoneTop .phimBam{
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+}
+#talkingPhoneTop .phimBam:focus{
+    outline: none;
+}
+#talkingPhoneTop .phimBam:hover{
+    cursor: pointer;
+    background-color: #2d6790;
+}
+#talkingPhoneTop .phimBam:active{
+    background-color: #214b68;
+}
+#talkingPhoneTop .phimBam:disabled{
+    color: #59758c;
+}
+
+.talkingPhoneBtnBGRed{
+    background-color: #d03f3c !important;
+}
+.talkingPhoneBtnBGBlue{
+    background-color: #2e6c97 !important;
+}
+.talkingPhoneBtnBGBlue:active{
+    background-color: #2c5979;
+}

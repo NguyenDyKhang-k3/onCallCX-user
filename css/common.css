@@ -1,0 +1,140 @@
+.top-0{
+    top:0;
+}
+.left-0{
+    left:0;
+}
+.right-0{
+    right:0;
+}
+.bottom-0{
+    bottom:0;
+}
+.h-fit {
+    height: fit-content;
+    max-height: fit-content;
+}
+.w-fit {
+    width: fit-content;
+    max-width: fit-content;
+}
+.flex-1{
+    flex: 1;
+}
+.us-none{
+    user-select: none;
+}
+.t-0{
+    top: 0;
+}
+.l-0{
+    left: 0;
+}
+.p-1px{
+    padding: 1px;
+}
+.pl-1px{
+    padding-left: 1px;
+}
+.pr-1px{
+    padding-right: 1px;
+}
+.pt-1px{
+    padding-top: 1px;
+}
+.pb-1px{
+    padding-bottom: 1px;
+}
+.m-1px{
+    margin: 1px;
+}
+.ml-1px{
+    margin-left: 1px;
+}
+.mr-1px{
+    margin-right: 1px;
+}
+.mt-1px{
+    margin-top: 1px;
+}
+.mb-1px{
+    margin-bottom: 1px;
+}
+
+.br-gray {
+    border-right: 1px solid #e2e2e2 !important;
+}
+
+.bb-gray {
+    border-bottom: 1px solid #e2e2e2 !important;
+}
+.hover-p:hover{
+    cursor: pointer;
+}
+.phoneHeader{
+   
+    text-align: center;
+    color: white;
+    max-height: 30px;
+    height: 30px;
+}
+
+#currentStatusDiv:hover,.statusOption:hover{
+    cursor: pointer;
+}
+.statusOption{
+    height: 24px;
+    background-color: #12364e;
+    color:white;
+    font-size: 0.9em;
+    border-bottom: 1px solid #2a4a5f;
+}
+#statusOptionsContainerDiv {
+    width: 223px;
+    max-height: 23px;
+    overflow-y: visible;
+    position: absolute;
+    bottom: 120px;
+    z-index: 999;
+}
+.statusColor{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.btnAction {
+    outline: none;
+    border-radius: 20px;
+    width: 95px;
+    max-width: 95px;
+    min-width: 95px;
+    height: 33px;
+    font-size: 1.1em;
+}
+.btnAction:hover{
+    cursor: pointer;
+    outline: none;
+}
+
+.btnAction:active{
+    cursor: pointer;
+}
+.btnAction:focus{
+    outline: none;
+}
+
+#mainBody {
+    position:relative;
+    max-width: 225px;
+    max-height:360px;
+    margin: auto;
+}
+
+.statusText{
+    font-size: 0.6em;
+}
+
+.actionDiv{
+    height: 44px;
+}

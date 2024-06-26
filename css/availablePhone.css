@@ -1,0 +1,15 @@
+#availablePhoneActionsDiv #btnCall {
+    background-color: #30d19d;
+    border: 1px solid white;
+    color: #18684e;
+}
+#availablePhoneActionsDiv #btnCall:hover{
+    background-color: #2bc090;
+}
+#availablePhoneActionsDiv #btnCall:active{
+    background-color: #08ba80;
+}
+#availablePhoneActionsDiv #btnCall:disabled {
+    background-color: #b7e8d8;
+    color: #a5bbb4;
+}
